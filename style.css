@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #eee;
+    background-image: url(253342.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    display: block;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    margin-top: 0;
+}
+h1 {
+    margin-bottom: 0.25em;
+}
+.shelf {
+display: flex;
+}
+.fa-square-plus { 
+    transition: all .1s ease-in-out; 
+    font-size: 5em;
+}
+    
+.fa-square-plus:hover { 
+    transform: scale(1.1); 
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: 20px;
+}
+dialog {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter:blur(10px);
+    border: none;
+    border-radius: 10px;
+    display: none;
+    display: flex;
+    flex-direction: row;
+}
+form {
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.book-cover {
+    width: 7em;
+    height: 10em;
+    border: #ffffff00 1px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.05);
+    backdrop-filter:blur(10px);
+    transition: all .1s ease-in-out; 
+    margin-left: 2em;
+}
+.book-cover:hover{
+    transform: scale(1.1);
+}
+.fa-plus {
+    color: #eeeeeece;
+    transition: all .1s ease-in-out; 
+    font-size: 3em;
+}
+.fa-plus:hover{
+    transform: scale(1.1);
+    color: #eeeeee;
+}
+button {
+
+margin-left: 50%;
+}
